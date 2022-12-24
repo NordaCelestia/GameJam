@@ -8,6 +8,7 @@ public class toplandiktanSonraKontrol : MonoBehaviour
     public GameObject canvas;
     public TextMeshProUGUI toplSonraKonusma;
     public GameObject elfvekontrol;
+    public TextMeshProUGUI isim;
     
     private void OnTriggerEnter2D(Collider2D collision)
     {
@@ -21,8 +22,9 @@ public class toplandiktanSonraKontrol : MonoBehaviour
 
     IEnumerator topladiktanSonraK()
     {
-        toplSonraKonusma.text = "aa demek döndün";
-        yield return new WaitForSeconds(2);
+        isim.text = "Ellie";
+        toplSonraKonusma.text = "Harikasýn Nicholas! Süsleri biz yerleþtiririz. Sen koro þefimiz bay HuysuzAyak'ý bulmalýsýn! Her zamanki gibi sað altta buzullarýn içinde debeleniyordur. ";
+        yield return new WaitForSeconds(6);
         canvas.SetActive(false);
         elfvekontrol.SetActive(false);
     }
