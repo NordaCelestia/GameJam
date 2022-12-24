@@ -17,6 +17,7 @@ public class susAlma : MonoBehaviour
     public TextMeshProUGUI bastaKonusma;
     public GameObject engel;
     public GameObject gorev;
+    public AudioSource EllieSes;
 
 
     private void Start()
@@ -50,6 +51,7 @@ public class susAlma : MonoBehaviour
 
      IEnumerator baslangic()
     {
+        EllieSes.Play();
         isim.text = "Ellie";
         bastaKonusma.text = "Haydi Nicholas, etrafta kayýp olan aðaç süslerini bulmalýyýz! Bulunca tekrar yanýmýza gel.";
         yield return new WaitForSeconds(6);

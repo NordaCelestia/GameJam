@@ -9,6 +9,7 @@ public class toplandiktanSonraKontrol : MonoBehaviour
     public TextMeshProUGUI toplSonraKonusma;
     public GameObject elfvekontrol;
     public TextMeshProUGUI isim;
+    public AudioSource EllieDonus;
     
     private void OnTriggerEnter2D(Collider2D collision)
     {
@@ -22,6 +23,7 @@ public class toplandiktanSonraKontrol : MonoBehaviour
 
     IEnumerator topladiktanSonraK()
     {
+        EllieDonus.Play();
         isim.text = "Ellie";
         toplSonraKonusma.text = "Harikasýn Nicholas! Süsleri biz yerleþtiririz. Sen koro þefimiz bay HuysuzAyak'ý bulmalýsýn! Her zamanki gibi sað altta buzullarýn içinde debeleniyordur. ";
         yield return new WaitForSeconds(6);
