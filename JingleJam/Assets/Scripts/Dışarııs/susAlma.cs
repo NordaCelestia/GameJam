@@ -13,6 +13,8 @@ public class susAlma : MonoBehaviour
     public GameObject basKonusma;
     public TextMeshProUGUI donuncaKonusma;
     public TextMeshProUGUI bastaKonusma;
+    public GameObject engel;
+    public GameObject gorev;
 
 
     private void Start()
@@ -25,11 +27,12 @@ public class susAlma : MonoBehaviour
         if (toplananSus == 3)
         {
             toplananSus++;
-            Debug.Log("topladý 1 arttýrlýdý.");
-            kontrol.SetActive(true);
-            Debug.Log("aktive olmasý lazým.");
-            StartCoroutine(topladiktanSonraKonusma());
+            engel.SetActive(false);
             
+        }
+        if (Input.GetKeyDown(KeyCode.Tab))
+        {
+            gorev.SetActive(true);
         }
     }
 
@@ -41,14 +44,7 @@ public class susAlma : MonoBehaviour
 
     }
 
-    IEnumerator topladiktanSonraKonusma()
-    {
-        
-        donuncaKonusma.text = "AA demek döndün";
-        yield return new WaitForSeconds(3);
-        kontrol.SetActive(false);
-
-    }
+    
 
      IEnumerator baslangic()
     {
