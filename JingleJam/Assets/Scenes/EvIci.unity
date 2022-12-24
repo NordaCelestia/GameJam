@@ -105241,13 +105241,29 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 5689114214734222944, guid: 5221542eeb3259340a2e725e01964ae2, type: 3}
+      propertyPath: m_Size.x
+      value: 2.2876053
+      objectReference: {fileID: 0}
+    - target: {fileID: 5689114214734222944, guid: 5221542eeb3259340a2e725e01964ae2, type: 3}
+      propertyPath: m_Size.y
+      value: 4.9850183
+      objectReference: {fileID: 0}
+    - target: {fileID: 5689114214734222944, guid: 5221542eeb3259340a2e725e01964ae2, type: 3}
+      propertyPath: m_Offset.x
+      value: 0.11705518
+      objectReference: {fileID: 0}
+    - target: {fileID: 5689114214734222944, guid: 5221542eeb3259340a2e725e01964ae2, type: 3}
+      propertyPath: m_Offset.y
+      value: -1.5655434
+      objectReference: {fileID: 0}
     - target: {fileID: 9105098046781490012, guid: 5221542eeb3259340a2e725e01964ae2, type: 3}
       propertyPath: moveSpeed
       value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 9105098046781490013, guid: 5221542eeb3259340a2e725e01964ae2, type: 3}
       propertyPath: m_SortingOrder
-      value: 2
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 9105098046781490014, guid: 5221542eeb3259340a2e725e01964ae2, type: 3}
       propertyPath: m_Name
