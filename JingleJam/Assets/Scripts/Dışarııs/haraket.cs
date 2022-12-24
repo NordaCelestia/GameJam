@@ -8,6 +8,7 @@ public class haraket : MonoBehaviour
 
     public Rigidbody2D rb;
     public Animator animator;
+    public GameObject gorev;
 
     Vector2 movement;
     void Update()
@@ -18,7 +19,30 @@ public class haraket : MonoBehaviour
         animator.SetFloat("Horizontal", movement.x);
         
         animator.SetFloat("Speed", movement.sqrMagnitude);
-        
+
+        if (Input.GetKeyDown(KeyCode.Tab))
+        {
+            if (gorev.activeSelf == true)
+            {
+                if (Input.GetKeyDown(KeyCode.Tab))
+                {
+                    gorev.SetActive(false);
+                }
+                    
+                
+                
+            }
+            else if (gorev.activeSelf == false)
+            {
+                if (Input.GetKeyDown(KeyCode.Tab))
+                {
+                    gorev.SetActive(true);
+                }
+                
+            }
+            
+        }
+
     }
 
     private void FixedUpdate()

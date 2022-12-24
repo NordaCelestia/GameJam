@@ -12,6 +12,7 @@ public class susAlma : MonoBehaviour
     public GameObject eveDonunce;
     public GameObject kontrol;
     public GameObject basKonusma;
+    public TextMeshProUGUI isim;
     public TextMeshProUGUI donuncaKonusma;
     public TextMeshProUGUI bastaKonusma;
     public GameObject engel;
@@ -49,8 +50,9 @@ public class susAlma : MonoBehaviour
 
      IEnumerator baslangic()
     {
-        bastaKonusma.text = "hadi git topla";
-        yield return new WaitForSeconds(3);
+        isim.text = "Ellie";
+        bastaKonusma.text = "Haydi Nicholas, etrafta kayýp olan aðaç süslerini bulmalýyýz! Bulunca tekrar yanýmýza gel.";
+        yield return new WaitForSeconds(6);
         basKonusma.SetActive(false);
     }
 
