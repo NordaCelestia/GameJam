@@ -7,6 +7,8 @@ public class huysuzAyakKonusmaTrigger : MonoBehaviour
 {
     public GameObject huysuzAkonusma;
     public TextMeshProUGUI huysuzAyazi;
+    public GameObject huysuzAyak;
+    public GameObject ikincievegir;
     private void OnTriggerEnter2D(Collider2D collision)
     {
         if (collision.CompareTag("Player"))
@@ -20,5 +22,8 @@ public class huysuzAyakKonusmaTrigger : MonoBehaviour
     {
         huysuzAyazi.text = "sen kimsin ben huysuz ayak";
         yield return new WaitForSeconds(2);
+        huysuzAkonusma.SetActive(false);
+        huysuzAyak.SetActive(false);
+        ikincievegir.SetActive(true);
     }
 }

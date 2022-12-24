@@ -9,6 +9,6 @@ public class oynaButon : MonoBehaviour
     
     public void oynaButonu()
     {
-        SceneManager.LoadScene(1);
+        SceneManager.LoadScene(4);
     }
 }

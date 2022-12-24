@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using TMPro;
 using UnityEngine.Events;
+using UnityEngine.SceneManagement;
 
 public class susAlma : MonoBehaviour
 {
@@ -52,4 +53,10 @@ public class susAlma : MonoBehaviour
         yield return new WaitForSeconds(3);
         basKonusma.SetActive(false);
     }
+
+    public void ikinciEveGiris()
+    {
+        SceneManager.LoadScene(3);
+    }
+
 }
