@@ -8,6 +8,7 @@ public class toplama : MonoBehaviour
     public bool isInRange;
     public KeyCode interactKey;
     public UnityEvent interactAction;
+    public UnityEvent yoket;
     void Start()
     {
 
@@ -21,6 +22,7 @@ public class toplama : MonoBehaviour
             if (Input.GetKeyDown(interactKey))
             {
                 interactAction.Invoke();
+                yoket.Invoke();
             }
         }
     }
