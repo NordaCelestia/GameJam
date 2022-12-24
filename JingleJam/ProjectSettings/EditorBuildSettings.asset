@@ -14,4 +14,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Disarisi.unity
     guid: 04886e64bb153ea488b2c2d24c62a038
+  - enabled: 1
+    path: Assets/Scenes/SusluEvIci.unity
+    guid: 5e1b1896d4c764347957f6196001c7fe
   m_configObjects: {}
