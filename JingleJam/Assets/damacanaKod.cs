@@ -10,6 +10,7 @@ public class damacanaKod : MonoBehaviour
     public UnityEvent interactAction;
     public GameObject donus;
     public GameObject damacana;
+    public GameObject onuAldin;
 
     void Start()
     {
@@ -54,5 +55,6 @@ public class damacanaKod : MonoBehaviour
     {
         Destroy(damacana);
         donus.SetActive(true);
+        onuAldin.SetActive(true);
     }
 }

@@ -24,6 +24,12 @@ EditorBuildSettings:
     path: Assets/Scenes/2.Disarisi.unity
     guid: 40ba6ce3c8df26c42a86f2ad24639010
   - enabled: 1
+    path: Assets/Scenes/SonDiyar.unity
+    guid: 52f51ded15875ca4e8b936e962c86c4e
+  - enabled: 1
     path: Assets/Scenes/Son Ev.unity
     guid: fb02a6c731005b8439d96a982318ef97
+  - enabled: 1
+    path: Assets/Scenes/SONSAHNE.unity
+    guid: d49b5e8a48ae57f40a30157dd638c48f
   m_configObjects: {}

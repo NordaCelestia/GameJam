@@ -52,6 +52,6 @@ public class EVedonus : MonoBehaviour
 
     public void eveDon()
     {
-        SceneManager.LoadScene(6);
+        SceneManager.LoadScene(7);
     }
 }

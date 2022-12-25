@@ -11,6 +11,7 @@ public class toplandiktanSonraKontrol : MonoBehaviour
     public TextMeshProUGUI isim;
     public AudioSource EllieDonus;
     
+    
     private void OnTriggerEnter2D(Collider2D collision)
     {
         if (collision.CompareTag("Player"))
@@ -29,6 +30,7 @@ public class toplandiktanSonraKontrol : MonoBehaviour
         yield return new WaitForSeconds(9);
         canvas.SetActive(false);
         elfvekontrol.SetActive(false);
+        
     }
     
 }

@@ -51,7 +51,7 @@ public class susAlma : MonoBehaviour
 
      IEnumerator baslangic()
     {
-        //EllieSes.Play();
+        EllieSes.Play();
         isim.text = "Ellie";
         bastaKonusma.text = "Haydi Nicholas, etrafta kayýp olan aðaç süslerini bulmalýyýz! Bulunca tekrar yanýmýza gel.";
         yield return new WaitForSeconds(6);
