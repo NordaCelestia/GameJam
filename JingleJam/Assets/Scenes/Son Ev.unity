@@ -93467,7 +93467,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1960985294}
-  - component: {fileID: 1960985293}
+  - component: {fileID: 1960985295}
   m_Layer: 0
   m_Name: konusmaObjesi
   m_TagString: Untagged
@@ -93475,24 +93475,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &1960985293
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1960985292}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d40920409448ebb4e95115412a6c0363, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  canvas: {fileID: 7635512166204677406}
-  isim: {fileID: 7635512166204677405}
-  konusma: {fileID: 7635512166204677404}
-  konusma1: {fileID: 9317739}
-  konusma2: {fileID: 540831503}
-  konusma3: {fileID: 581490249}
 --- !u!4 &1960985294
 Transform:
   m_ObjectHideFlags: 0
@@ -93508,6 +93490,21 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1960985295
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1960985292}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3403d3c4469384149b4e69b5e8c76b10, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  canvas: {fileID: 7635512166204677406}
+  isim: {fileID: 7635512166204677405}
+  konusma: {fileID: 7635512166204677404}
 --- !u!1001 &413610177944166084
 PrefabInstance:
   m_ObjectHideFlags: 0

@@ -9,6 +9,7 @@ public class kagitToplama : MonoBehaviour
     public bool isInRange;
     public KeyCode interactKey;
     public UnityEvent interactAction;
+    public UnityEvent kagitOkuma;
     public GameObject kagit;
     public GameObject canvas;
     public AudioSource not;
@@ -63,6 +64,7 @@ public class kagitToplama : MonoBehaviour
         Destroy(kagit);
         canvas.SetActive(true);
         not.Play();
+        kagitOkuma.Invoke();
         yield return new WaitForSeconds(1);
     }
 

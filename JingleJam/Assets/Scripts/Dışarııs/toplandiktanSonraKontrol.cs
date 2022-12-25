@@ -23,10 +23,10 @@ public class toplandiktanSonraKontrol : MonoBehaviour
 
     IEnumerator topladiktanSonraK()
     {
-        //EllieDonus.Play();
+        EllieDonus.Play();
         isim.text = "Ellie";
         toplSonraKonusma.text = "Harikasýn Nicholas! Süsleri biz yerleþtiririz. Sen koro þefimiz bay HuysuzAyak'ý bulmalýsýn! Her zamanki gibi sol altta buzullarýn içinde debeleniyordur. ";
-        yield return new WaitForSeconds(6);
+        yield return new WaitForSeconds(9);
         canvas.SetActive(false);
         elfvekontrol.SetActive(false);
     }
