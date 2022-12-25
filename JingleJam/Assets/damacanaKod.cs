@@ -3,16 +3,13 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.Events;
 
-
-public class kagitToplama : MonoBehaviour
+public class damacanaKod : MonoBehaviour
 {
     public bool isInRange;
     public KeyCode interactKey;
     public UnityEvent interactAction;
-    public GameObject kagit;
-    public GameObject canvas;
-    public AudioSource not;
-    
+    public GameObject donus;
+    public GameObject damacana;
 
     void Start()
     {
@@ -53,18 +50,9 @@ public class kagitToplama : MonoBehaviour
         }
     }
 
-    public void kagitAl()
+    public void damacanaAl()
     {
-        StartCoroutine(kagitAlma());
+        Destroy(damacana);
+        donus.SetActive(true);
     }
-
-    IEnumerator kagitAlma()
-    {
-        Destroy(kagit);
-        canvas.SetActive(true);
-        not.Play();
-        yield return new WaitForSeconds(1);
-    }
-
-    
 }

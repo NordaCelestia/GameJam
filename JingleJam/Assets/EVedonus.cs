@@ -2,16 +2,13 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.Events;
+using UnityEngine.SceneManagement;
 
-
-public class kagitToplama : MonoBehaviour
+public class EVedonus : MonoBehaviour
 {
     public bool isInRange;
     public KeyCode interactKey;
     public UnityEvent interactAction;
-    public GameObject kagit;
-    public GameObject canvas;
-    public AudioSource not;
     
 
     void Start()
@@ -53,18 +50,8 @@ public class kagitToplama : MonoBehaviour
         }
     }
 
-    public void kagitAl()
+    public void eveDon()
     {
-        StartCoroutine(kagitAlma());
+        SceneManager.LoadScene(6);
     }
-
-    IEnumerator kagitAlma()
-    {
-        Destroy(kagit);
-        canvas.SetActive(true);
-        not.Play();
-        yield return new WaitForSeconds(1);
-    }
-
-    
 }
