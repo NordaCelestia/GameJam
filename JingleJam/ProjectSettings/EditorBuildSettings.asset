@@ -20,4 +20,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/1.Cutscene.unity
     guid: 06ea4c89921a48b42b22d582821ec3ca
+  - enabled: 1
+    path: Assets/Scenes/2.Disarisi.unity
+    guid: 40ba6ce3c8df26c42a86f2ad24639010
   m_configObjects: {}

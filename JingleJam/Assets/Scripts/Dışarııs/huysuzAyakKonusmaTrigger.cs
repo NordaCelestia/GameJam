@@ -42,7 +42,7 @@ public class huysuzAyakKonusmaTrigger : MonoBehaviour
         konusma2.Play();
         isim.text = "Nicholas";
         huysuzAyazi.text = "Bay HuysuzAyak Noel ruhunu canlandýrmamýz için size ihtiyacýmýz var. ";
-        yield return new WaitForSeconds(6);
+        yield return new WaitForSeconds(5);
 
         konusma3.Play();
         isim.text = "Bay HuysuzAyak";
@@ -52,7 +52,7 @@ public class huysuzAyakKonusmaTrigger : MonoBehaviour
         konusma4.Play();
         isim.text = "Nicholas";
         huysuzAyazi.text = "O zaman... bizde rovaniemi'nin en yetenekli baþka þefine gideriz! Baþka þansýmýz kalmadý..";
-        yield return new WaitForSeconds(6);
+        yield return new WaitForSeconds(8);
 
         konusma5.Play();
         isim.text = "Bay HuysuzAyak";
@@ -62,7 +62,7 @@ public class huysuzAyakKonusmaTrigger : MonoBehaviour
         konusma6.Play();
         isim.text = "Nicholas";
         huysuzAyazi.text = "Yani bilemiyorum... Madem Noel umrunda deðil, buda neden umrunda olsun ki!";
-        yield return new WaitForSeconds(6);
+        yield return new WaitForSeconds(7);
 
         konusma7.Play();
         isim.text = "Bay HuysuzAyak";
